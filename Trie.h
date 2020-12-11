@@ -7,7 +7,7 @@ using namespace std;
 struct Trie
 {
     string value;
-    char** next[26];
+    Trie* next[26];
 };
 
 Trie* get(Trie* p, string key, int d);
